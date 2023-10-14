@@ -1,4 +1,6 @@
 // Add your code here
+let name = "Steve"
+let email = "steve@steve.com"
 function submitData(name, email) {
     const data = {
       name: name,
@@ -26,5 +28,5 @@ function submitData(name, email) {
         document.body.innerHTML += `<p>Error: ${error.message}</p>`;
       });
   }
-  submitData('steve', 'steve@gmail.com');
+  submitData();
  
